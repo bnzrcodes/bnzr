@@ -1,0 +1,25 @@
+{
+  "name": "bnzr-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && node scripts/finalize-build.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "node scripts/check-site.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "@fontsource/inter": "5.2.8"
+  },
+  "devDependencies": {
+    "vite": "7.3.1",
+    "@babel/parser": "7.28.6",
+    "@babel/traverse": "7.28.6",
+    "@babel/generator": "7.28.6",
+    "@babel/types": "7.28.6"
+  }
+}
